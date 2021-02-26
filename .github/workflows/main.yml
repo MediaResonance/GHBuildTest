@@ -26,7 +26,7 @@ jobs:
 
       # Test
       - name: Run tests
-        uses: game-ci/unity-test-runner@v1.3
+        uses: game-ci/unity-test-runner@v1.7
         with:
           unityVersion: 2019.2.11f1
 

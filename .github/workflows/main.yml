@@ -34,7 +34,7 @@ jobs:
       - name: Build project
         uses: game-ci/unity-builder@v2
         with:
-          unityVersion: 2019.2.11f1
+          unityVersion: 2020.2.5f1
           targetPlatform: WebGL
 
       # Output

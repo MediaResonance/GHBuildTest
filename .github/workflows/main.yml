@@ -32,13 +32,13 @@ jobs:
 
       # Build
       - name: Build project
-        uses: game-ci/unity-builder@v0.10
+        uses: game-ci/unity-builder@v2
         with:
           unityVersion: 2019.2.11f1
           targetPlatform: WebGL
 
       # Output
-      - uses: actions/upload-artifact@v1
+      - uses: actions/upload-artifact@v2
         with:
           name: Build
           path: build

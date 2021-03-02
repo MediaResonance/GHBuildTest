@@ -25,10 +25,10 @@ jobs:
           key: Library
 
       # Test
-      - name: Run tests
-        uses: game-ci/unity-test-runner@v2
-        with:
-          unityVersion: 2020.2.5f1
+      # - name: Run tests
+      #   uses: game-ci/unity-test-runner@v2
+      #   with:
+      #     unityVersion: 2020.2.5f1
 
       # Build
       - name: Build project
